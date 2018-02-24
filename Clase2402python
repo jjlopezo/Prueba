@@ -1,0 +1,19 @@
+Uso de libreria doctest
+
+Codigo en python:
+
+# """ se usa para delimitar un bloque de comentarios
+
+"""
+>>>hello('juan')
+hola juan desde demotdd.py
+"""
+
+def hello(s)
+    print("hola " +s+ " desde demotdd.py")
+
+if __name__ == "__main__"":
+    import doctest
+doctest.testmode()
+
+
